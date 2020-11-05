@@ -152,9 +152,32 @@ p{
    }
 
 
+.profile-pic{
+      float: right;
+      padding-right: 20px;
+   }
+
+
+
+
 }
 
 
+
+
+
+
+
+
+
+
+
+/* Clear-Fix */
+.group::after{
+content: "";
+  clear: both;
+  display: table;
+}
 
 
 
