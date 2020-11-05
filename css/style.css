@@ -148,13 +148,22 @@ p{
 
    ul li{
       display: inline;
-      padding: 0 10px;
+      padding: 0 30px;
    }
 
 
 .profile-pic{
       float: right;
       padding-right: 20px;
+      padding-bottom: 15px;
+      padding-left: 15px;
+      border-radius: 20%;
+   }
+
+   .light-font{
+      padding-top: 50px;
+    padding-left: 20px ;
+
    }
 
 
