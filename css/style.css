@@ -1,0 +1,113 @@
+/* Rules for the entire sheet */
+
+*{
+  
+   box-sizing: border-box;
+}
+
+body{
+   background-color:#fff1e6 ;
+}
+
+header{
+   background-color:#a5a58d ;
+   padding-top: 10px;
+   
+}
+
+
+ul{
+   list-style-type: none;
+ 
+}
+
+a{
+   text-decoration: none;
+}
+
+a:link {
+   color: black;
+ }
+
+ a:visited {
+   color: black;
+ }
+
+ a:hover {
+   color: blue;
+ }
+
+
+
+
+
+
+/* Class selectors */
+
+
+
+.dark-font{
+   font-family: 'Itim', cursive;
+}
+
+.light-font{
+   font-family: 'Fjalla One', sans-serif;
+   font-size: 18px;
+}
+
+
+
+
+
+
+
+ 
+/* @media */
+
+ @media(min-width:320px) and (max-width:767px){
+
+header{
+   text-align: center;
+  
+}
+
+ul{
+   padding-left: 0px;
+}
+
+li{
+   padding:10px 0;
+   font-weight: bold;
+}
+
+p{
+   line-height: 1.5;
+   padding: 0 20px;
+   
+  
+}
+
+.profile-pic{
+  width: 300px;
+  border-radius: 20%;
+}
+
+
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
