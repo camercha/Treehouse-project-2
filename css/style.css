@@ -16,7 +16,7 @@ header{
 }
 
 footer{
-   background-color: #fff1e6;
+   background-color: #eddcd2;
    padding-bottom: 24px;
    text-align: center;
 }
@@ -72,6 +72,12 @@ a:link {
 }
 
 
+.text-font{
+   font-family: 'Cormorant', serif;
+}
+   
+
+
 .intro{
    background-color:#a5a58d;
    padding-top: 11px;
@@ -125,6 +131,7 @@ p{
  width: 350px;
 }
 
+.hobbies{
    text-align: center;
 }
 .hobbies img{
@@ -134,7 +141,7 @@ p{
 
 
 .bottom-nav{
-   border-top: 2px solid red;
+   border-top: 2px solid#a5a58d;
 }
 
 .bottom-nav li{
@@ -157,13 +164,21 @@ ul .contact{
  ul .porto{
     display: none;
  } 
+
+
+ ul .hobby{
+   display: none;
+} 
+
  
  .bottomname{
     float: left;
+    font-weight: bold;
  }
  
  .bottomlink{
     float:right;
+    font-weight: bold;
  
     
  }
@@ -271,7 +286,7 @@ ul .contact{
      
 
      .bottom-nav{
-      border-top: 2px solid red;
+      border-top: 2px solid#a5a58d;
    }
    
    .bottomname{
@@ -284,7 +299,8 @@ ul .contact{
 
      .home,
      .contact,
-     .porto{
+     .porto,
+     .hobby{
         float: right;
      }
 
@@ -423,7 +439,8 @@ ul li{
 
     
 .bottom-nav{
-      border-top: 2px solid red;
+   border-top: 2px solid#a5a58d;
+ 
    }
    
    .bottomname{
@@ -436,8 +453,10 @@ ul li{
 
      .home,
      .contact,
-     .porto{
+     .porto,
+     .hobby{
         float: right;
+        
      }
 
      footer p{
