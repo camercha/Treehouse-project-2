@@ -177,14 +177,14 @@ p{
    }
 
 .portfolio  .left {
- border: 3px solid red;
+  padding: 5px;
  float: left;
  width: 50%;
 }
 
 
 .portfolio   .right {
-   border: 3px solid blue;
+  padding: 5px;
    float: right;
    width: 50%;
   }
@@ -193,6 +193,16 @@ p{
      }
 
 
+
+    ul .bottomlink{
+       display: none;
+     }
+
+     .home,
+     .contact,
+     .porto{
+        float: right;
+     }
 
 }
 
