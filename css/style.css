@@ -138,14 +138,14 @@ p{
 }
 
 .article img{
- width: 350px;
+ width: 45%;
 }
 
 .hobbies{
    text-align: center;
 }
 .hobbies img{
-   width: 350px;
+   width: 45%;
    
 }
 
@@ -268,7 +268,7 @@ footer{
 
   
    .article img{
-      width: 350px;
+      width: 70%;
      }
 
 
@@ -279,7 +279,7 @@ footer{
       position: relative;
    }
    .hobbies img{
-      width: 350px;
+      width: 70%;
       
    }
 
@@ -431,13 +431,13 @@ ul li{
 }
 
 .article img{
-      width: 250px;
+      width: 60%;
      }
 
 
      
    .hobbies img{
-      width: 350px;
+      width: 60%;
       
    }
 
