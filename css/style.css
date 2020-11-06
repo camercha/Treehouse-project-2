@@ -178,15 +178,20 @@ ul .contact{
    display: none;
 } 
 
+footer{
+   padding-bottom: 40px;
+}
  
  .bottomname{
     float: left;
     font-weight: bold;
+    padding-top: 10px;
  }
  
  .bottomlink{
     float:right;
     font-weight: bold;
+    padding-top: 10px;
  
     
  }
@@ -299,6 +304,7 @@ ul .contact{
    
    .bottomname{
       float: left;
+      padding-top: 10px;
    }
 
     ul .bottomlink{
@@ -310,7 +316,14 @@ ul .contact{
      .porto,
      .hobby{
         float: right;
+        padding-top: 10px;
      }
+
+
+
+     footer{
+      padding-bottom: 40px;
+   }
 
      footer p{
         font-size: 18px;
@@ -453,6 +466,7 @@ ul li{
    
    .bottomname{
       float: left;
+      padding-top: 10px;
    }
 
     ul .bottomlink{
@@ -464,7 +478,13 @@ ul li{
      .porto,
      .hobby{
         float: right;
+        padding-top: 10px;
         
+     }
+
+
+     footer{
+        padding-bottom: 40px;
      }
 
      footer p{
