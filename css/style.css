@@ -16,7 +16,7 @@ header{
 }
 
 footer{
-   background-color: #42f5c2;
+   background-color: #fff1e6;
    padding-bottom: 24px;
    text-align: center;
 }
@@ -225,6 +225,11 @@ ul .contact{
    float: right;
    width: 50%;
   }
+
+
+
+
+  
    .article img{
       width: 350px;
      }
@@ -299,12 +304,57 @@ header li{
 ul{
  padding: 0;
 
+
+}
+
+ul li{
+   padding: 0 30px;
+   font-weight: bold;
 }
 
 .portfolio{
    text-align: center;
 }
 
+.portfolio .article{
+   padding: 10px 10px;
+}
+
+
+
+.number-1{
+   float: left;
+   width: 33%;
+
+}
+
+.number-2{
+   float: left;
+   width: 33%;
+}
+
+.number-3{
+   float: left;
+   width: 33%;
+}
+
+
+
+
+.number-4{
+   float: right;
+   width: 33%;
+}
+
+.number-5{
+   float: right;
+   width: 33%;
+}
+
+.number-6{
+   float: right;
+   width: 33%;
+}
 
 .article img{
       width: 250px;
@@ -312,27 +362,36 @@ ul{
 
 
 
-
-.portfolio   .right {
+    
+.bottom-nav{
+      border-top: 2px solid red;
+   }
    
-    float: right;
-    width: 33%;
-   }
-
-
-   .portfolio .middle{
-      
+   .bottomname{
       float: left;
-      width: 33%;
    }
 
+    ul .bottomlink{
+       display: none;
+     }
+
+     .home,
+     .contact,
+     .porto{
+        float: right;
+     }
+
+     footer p{
+        font-size: 18px;
+        width: 100%;
+        
+     }
 
 
-   .portfolio  .left {
-     
-     float: left;
-     width: 33%;
-    }
+
+
+
+    
 
    }
 
