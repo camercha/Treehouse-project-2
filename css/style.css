@@ -125,6 +125,13 @@ p{
  width: 350px;
 }
 
+   text-align: center;
+}
+.hobbies img{
+   width: 350px;
+   
+}
+
 
 .bottom-nav{
    border-top: 2px solid red;
@@ -234,6 +241,35 @@ ul .contact{
       width: 350px;
      }
 
+
+
+
+     .hobbies{
+      text-align: center;
+      position: relative;
+   }
+   .hobbies img{
+      width: 350px;
+      
+   }
+
+
+   .play{
+      float: right;
+      width: 50%;
+   }
+
+   .baseball{
+      float: left;
+      width: 50%;
+   }
+
+ 
+
+
+
+     
+
      .bottom-nav{
       border-top: 2px solid red;
    }
@@ -317,7 +353,6 @@ ul li{
 }
 
 .portfolio .article{
-   padding: 10px 10px;
    padding: 20px ;
 }
 
@@ -360,6 +395,30 @@ ul li{
       width: 250px;
      }
 
+
+     
+   .hobbies img{
+      width: 350px;
+      
+   }
+
+   .hobbies{
+      text-align: center;
+   }
+
+
+   .play{
+      float: right;
+      width: 50%;
+   }
+
+
+   .baseball{
+      float: right;
+      width: 50%;
+   }
+
+   
 
 
     
