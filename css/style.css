@@ -347,7 +347,7 @@ h1{
    display: inline-block;
  
 }
- header  ul{
+ header  nav{
    display: inline-block;
    float: right;
    padding-top: 10px;
@@ -502,13 +502,6 @@ ul li{
     
 
    }
-
-
-
-   
-
-
-
 
 
 /* Clear-Fix */
