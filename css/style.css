@@ -31,6 +31,10 @@ a{
    text-decoration: none;
 }
 
+h2{
+   text-align: center;
+}
+
 a:link {
    color: black;
  }
@@ -149,6 +153,7 @@ p{
    ul li{
       display: inline;
       padding: 0 30px;
+      font-weight: bold;
    }
 
 
@@ -163,9 +168,29 @@ p{
    .light-font{
       padding-top: 50px;
     padding-left: 20px ;
+    font-size: 25px;
 
    }
 
+   .portfolio{
+      text-align: center;
+   }
+
+.portfolio  .left {
+ border: 3px solid red;
+ float: left;
+ width: 50%;
+}
+
+
+.portfolio   .right {
+   border: 3px solid blue;
+   float: right;
+   width: 50%;
+  }
+   .article img{
+      width: 350px;
+     }
 
 
 
