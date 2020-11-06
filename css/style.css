@@ -17,13 +17,14 @@ header{
 
 footer{
    background-color: #42f5c2;
-   padding-bottom: 9px;
+   padding-bottom: 24px;
    text-align: center;
 }
 
 
 ul{
    list-style-type: none;
+   margin-bottom: 0;
  
 }
 
@@ -72,7 +73,7 @@ a:link {
 
 
 .intro{
-   background-color: #a5a58d;
+   background-color:#a5a58d;
    padding-top: 11px;
 }
 
@@ -201,7 +202,8 @@ ul .contact{
    }
 
    .light-font{
-      padding-top: 50px;
+     
+      
     padding-left: 20px ;
     font-size: 25px;
 
@@ -280,6 +282,11 @@ header li{
    
 }
 
+.light-font{
+   padding-left: 50px;
+   font-size: 30px;
+}
+
 .profile-pic{
    float: right;
    padding-right: 20px;
@@ -294,28 +301,44 @@ ul{
 
 }
 
+.portfolio{
+   text-align: center;
+}
+
+
+.article img{
+      width: 250px;
+     }
+
+
+
+
+.portfolio   .right {
+   
+    float: right;
+    width: 33%;
+   }
+
+
+   .portfolio .middle{
+      
+      float: left;
+      width: 33%;
+   }
+
+
+
+   .portfolio  .left {
+     
+     float: left;
+     width: 33%;
+    }
+
+   }
 
 
 
    
-
-
-     
-      
-
-
-   .article img{
-      width: 250px;
-     }
-
-}
-
-
-
-
-
-
-
 
 
 
