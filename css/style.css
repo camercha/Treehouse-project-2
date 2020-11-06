@@ -251,6 +251,72 @@ ul .contact{
 
 
 
+@media(min-width:1024px){
+
+h1{
+   display: inline-block;
+ 
+}
+ header  ul{
+   display: inline-block;
+   float: right;
+   padding-top: 10px;
+   padding-right: 20px;
+   padding-left: 20px;
+}
+header li{
+   display: inline-block;
+   padding-right: 20px;
+   padding-left: 20px;
+   font-weight: bold;
+   
+}
+
+.profile-pic{
+   float: right;
+   padding-right: 20px;
+   padding-bottom: 15px;
+   padding-left: 15px;
+   border-radius: 20%;
+}
+
+
+ul{
+ padding: 0;
+
+}
+
+
+  
+
+   .light-font{
+      
+    padding-left: 20px ;
+    font-size: 25px;
+
+   }
+
+
+   
+
+
+     
+      
+
+
+   .article img{
+      width: 250px;
+     }
+
+}
+
+
+
+
+
+
+
+
 
 
 
