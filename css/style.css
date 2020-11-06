@@ -116,8 +116,6 @@ p{
  width: 350px;
 }
 
-} 
-
 
 .bottom-nav{
    border-top: 2px solid red;
@@ -129,15 +127,44 @@ p{
    
 }
 
-.bottomname{
-   float: left;
-}
 
-.bottomlink{
-   float:right;
+ul .contact{
+   display: none;
+ }
+ 
+ 
+ ul .home{
+    display: none;
+ }
+ 
+ 
+ ul .porto{
+    display: none;
+ } 
+ 
+ .bottomname{
+    float: left;
+ }
+ 
+ .bottomlink{
+    float:right;
+ 
+    
+ }
 
-   
-}
+
+
+
+ }
+
+
+
+
+
+
+
+
+
 
 @media(min-width:768px) and (max-width:1023px){
 
@@ -192,7 +219,13 @@ p{
       width: 350px;
      }
 
-
+     .bottom-nav{
+      border-top: 2px solid red;
+   }
+   
+   .bottomname{
+      float: left;
+   }
 
     ul .bottomlink{
        display: none;
@@ -202,6 +235,12 @@ p{
      .contact,
      .porto{
         float: right;
+     }
+
+     footer p{
+        font-size: 18px;
+        width: 100%;
+        
      }
 
 }
