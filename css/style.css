@@ -71,7 +71,10 @@ a:link {
 }
 
 
-
+.intro{
+   background-color: #a5a58d;
+   padding-top: 11px;
+}
 
 
 
@@ -100,6 +103,11 @@ p{
    padding: 0 20px;
    
   
+}
+
+
+.intro{
+   text-align: center;
 }
 
 .profile-pic{
@@ -287,14 +295,6 @@ ul{
 }
 
 
-  
-
-   .light-font{
-      
-    padding-left: 20px ;
-    font-size: 25px;
-
-   }
 
 
    
